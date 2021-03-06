@@ -122,21 +122,5 @@ namespace EX_8A_Roulette
         }
 
 
-        private void PrintNumbers()
-        {
-            foreach (var item in numbers)
-            {
-                Console.Write($"{item} ");
-            }
-        }
-
-        private void PrintColors()
-        {
-            foreach (var item in colors)
-            {
-                Console.Write($"{item} ");
-            }
-        }
-
     }
 }
